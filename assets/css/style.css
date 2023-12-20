@@ -1,0 +1,542 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+.row>*{
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+}
+.card img{
+    width: 100%;
+    height: 450px;
+}
+.container {
+    margin: auto;
+    padding: 0 15px;
+}
+button:focus div{
+    border: none;
+}
+.header-color {
+    background-color: rgba(255, 255, 255, 0.11);
+}
+
+.header-img-section {
+    background: linear-gradient(180deg, rgba(21, 20, 33, 1) 0%, rgba(21, 20, 33, 0.3842787114845938) 0%), url(./../img/header-img.jpg) no-repeat center/cover;
+    height: 100vh;
+}
+
+.navbar nav {
+    display: none;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.logo {
+    color: #fff;
+    font: 700 30px 'Josefin Sans', sans-serif;
+    letter-spacing: -1px;
+}
+
+.logo-letter {
+    color: #10c880;
+    margin-right: -5px;
+}
+
+.menu i {
+    color: #fff;
+    font-size: 22px;
+}
+
+.header-content {
+    margin-top: 95px;
+    display: flex;
+    flex-direction: column;
+}
+.header-content .video i{
+    padding: 40px;
+    font-size: 20px;
+    outline: 2px solid #19c880;
+    background-color: #19c880;
+    border-radius: 50%;
+    color: #fff;
+    outline-offset: 5px;
+}
+.header-content h4 {
+    font: 700 14px 'Poppins', sans-serif;
+    text-transform: uppercase;
+    color: #19c880;
+}
+
+.header-content h1 {
+    font: 600 32px/1.6 'Poppins', sans-serif;
+    margin-top: 12px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.header-content p {
+    font: 400 16px/1.8 'Poppins', sans-serif;
+    color: #fff;
+    margin: 8px 0 0;
+}
+
+.social-media-icon {
+    margin: 15px 0 0;
+}
+
+.social-media-icon a {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #19c880;
+    border-radius: 50%;
+    transition: .5s;
+    margin-right: 7px;
+}
+
+.social-media-icon a i {
+    color: #fff;
+    font-size: 17px;
+}
+
+.social-media-icon a:hover {
+    background-color: #10c880;
+}
+
+.about-info-section {
+    padding: 100px 0;
+}
+
+.about-img img {
+    width: 100%;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+}
+
+#overline {
+    width: 150px;
+    height: 3px;
+    background-color: #10c880;
+    margin: 0 0 13px;
+}
+
+.about-context h2 {
+    font: 400 64px 'Great Vibes', cursive;
+}
+
+.about-context p {
+    font: 400 16px/1.6 'Poppins', sans-serif;
+}
+
+.about-context button {
+    font: 400 15px/1 'Poppins', sans-serif;
+    color: white;
+    background-color: #10c880;
+    border: 0;
+    padding: 12px 50px;
+    border-radius: 7px 20px;
+    margin-top: 20px;
+    transition: .5s;
+    border: 2px solid #10c880;
+
+}
+
+.about-context button:hover {
+    background-color: #fff;
+    color: #10c880;
+
+}
+
+.dNone {
+    display: none;
+}
+
+.course-section {
+    padding: 60px 0;
+}
+
+.course-section h2 {
+    font: 400 70px 'Great Vibes', cursive;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.courses {
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+}
+
+.courses div {
+    padding: 40px 30px;
+    background: #f9f9f9;
+    text-align: center;
+    transition: all 0.3s ease 0s;
+}
+
+.courses div i {
+    font-size: 60px;
+    color: #777;
+    transition: all 0.3s ease 0s;
+}
+
+.courses div h4 {
+    font: 600 20px 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+.courses div:hover {
+    color: #fff;
+    background: linear-gradient(90deg, #00aee0 0%, #00fedc 100%);
+}
+
+.courses div:hover i {
+    color: #fff;
+}
+
+.btn {
+    text-align: center;
+    margin-top: 60px;
+}
+
+.btn button {
+    padding: 12px 80px;
+    font: 500 18px'Poppins', sans-serif;
+    border: 0;
+    color: #fff;
+    background: linear-gradient(81deg, rgba(0, 252, 220, 1) 0%, rgba(0, 175, 224, 1) 72%);
+    box-shadow: 0px 20px 50px rgba(0, 175, 224, 0.3);
+}
+
+.btn button:hover {
+    background: linear-gradient(261deg, rgba(0, 252, 220, 1) 0%, rgba(0, 175, 224, 1) 72%);
+}
+
+#sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: #fff;
+    height: 100vh;
+    transition: .6s;
+    width: 65%;
+}
+
+#sidebar li {
+    padding: 10px 0 10px 15px;
+    transition: .4s;
+}
+#sidebar li:hover{
+    background-color: #85E6C5;
+}
+#sidebar li:hover a{
+    color: #fff;
+}
+
+#sidebar a {
+    font: 500 16px 'Poppins', sans-serif;
+    text-transform: capitalize;
+    color: #000;
+    transition: .5s;
+}
+#sidebar span{
+    display: block;
+    text-align: right;
+    padding: 20px 20px 0 0;
+}
+#sidebar span i{
+    font-size: 25px;
+}
+.transform{transform: translateX(100%);}
+
+.exam-section{
+    background: linear-gradient(261deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.5019257703081232) 0%),url(./../img/exam-img.jpg) no-repeat  fixed center/cover;
+    height: 100vh;
+}
+.exam-section h2{
+    color: #fff;
+    font: 500 50px 'Great Vibes', cursive;
+    text-align: center;
+    padding: 40px 0 20px;
+}
+.exams-list ul li{
+    margin-bottom: 14px;
+    display: flex;
+    align-items: center;
+    gap: 0 20px;
+}
+.exams-list ul li .circle{
+    flex-shrink: 0;
+}
+.exams-list .text{
+    color: #fff;
+    font: 400 14px 'Poppins', sans-serif;
+}
+.exams-list .circle{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+}
+.exams-list ul li:last-child .text{
+    font-style: italic;
+}
+.teacher-section{
+    padding: 50px 0;
+}
+.teacher-section h2{
+    text-align: center;
+    font: 500 50px 'Great Vibes', cursive
+}
+.why-us{
+    padding: 40px 0 0;
+    background-color: #f8f9fa;
+}
+.why-us h2, .contact-section h2{
+    font: 500 50px 'Great Vibes', cursive;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.why-us-content{
+    display: flex;
+    flex-direction: column;
+    gap: 30px 0;
+}
+.why-content-left{
+    background-color: #fff;
+    padding: 25px;
+    box-shadow: 0 5px 50px -10px rgba(0, 0, 0, 0.2);
+}
+.why-content-left ul li{ display: flex; align-items: center; gap: 0 20px; margin-bottom: 20px;}
+.why-content-left ul li i{
+    background-color: #1c4b82;
+    border-radius: 50%;
+    color: #fff;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.why-content-left ul li span{
+    font: 400 18px 'Poppins', sans-serif;
+}
+.why-content-right img{
+    width: 100%;
+}
+.contact-section{
+    padding: 100px 0;
+}
+.contact-us{
+    display: flex;
+    flex-direction: column;
+    gap: 40px 0;
+}
+.contact-img img{
+    width: 100%;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+    width: 100%;
+    text-align: center;
+}
+.form .name-surname{
+    display: flex;
+    flex-direction: column;
+    gap: 20px 0;
+}
+
+.form input{
+    width: 90%;
+    padding: 9px 12px;
+    outline: none;
+    border: 0;
+    border:2px solid #ced4da;
+    border-radius: 15px;
+}
+.form input:focus, .form textarea:focus{
+    border: 2px solid #7971ea;
+}
+textarea{
+    width: 97%;
+    resize: none;
+    outline: none;
+    padding: 9px 12px;
+    border:2px solid #ced4da;
+    border-radius: 15px;
+}
+input::placeholder,textarea::placeholder{
+    font: 400 13px 'Poppins', sans-serif;
+}
+.form button{
+    border: 0;
+    background-color: #fff;
+    color: #7971ea;
+    font: 400 18px 'Poppins', sans-serif;
+    padding: 15px 0;
+    border: 3px solid #7971ea;
+    border-radius: 30px 5px;
+    transition: .6s;
+}
+.form button:hover{
+    background-color: #7971ea;
+    color: #fff;
+}
+
+@media(min-width:576px) {
+    .container {
+        padding: 0;
+        max-width: 540px;
+    }
+
+    .header-content {
+        margin-top: 200px;
+    }
+
+    .courses {
+        flex-direction: row;
+        gap: 30px 20px;
+        flex-wrap: wrap;
+    }
+
+    .courses div {
+        width: 48%;
+    }
+    .exam-section h2{
+        font: 500 70px 'Great Vibes', cursive;
+    }
+}
+
+@media(min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+    .navbar nav ul {
+        display: flex;
+    }
+
+    .navbar nav ul li {
+        padding: 10px 15px;
+    }
+
+    .navbar nav ul li a {
+        font: 500 16px 'Poppins', sans-serif;
+        text-transform: capitalize;
+        color: #fff;
+        transition: .5s;
+    }
+
+    .navbar nav ul li:hover a {
+        color: #10c880;
+    }
+    
+
+    .courses {
+        gap: 30px 25px;
+    }
+
+    .exams-list .text{
+        font: 400 18px 'Poppins', sans-serif;
+    }
+    .exams-list ul li{
+        margin-bottom: 20px;
+    }
+    .contact-us{
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        gap: 0;
+    }
+    .contact-img, .contact-content{
+        width: 48%;
+    }
+    .header-content{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .header-content div{
+        width: 48%;
+    }
+    .header-content .video{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+}
+
+@media(min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+    .navbar nav {
+        display: block;
+    }
+    .menu {
+        display: none;
+    }
+    .courses div {
+        width: 31%;
+    }
+    .exams-list ul li:last-child{
+        margin-top: 60px;
+    }
+    .why-us-content{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .why-content-left, .why-content-right{
+        width: 48%;
+    }
+    .why-content-left{
+        height: 500px;
+    }
+    .why-content-left ul li i{
+        flex-shrink: 0;
+    }
+    .why-us h2, .contact-section h2{
+        font: 500 70px 'Great Vibes', cursive;
+    }
+}
+
+@media(min-width:1200px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    .about-section {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0;
+    }
+
+    .about-img,
+    .about-context {
+        width: 49%;
+    }
+
+}
+
+@media(min-width:1400px) {
+    .container {
+        max-width: 1320px;
+    }
+}
